@@ -5,12 +5,14 @@
 > Buka website resmi git [https://git-scm.com/](url), kemudian pilih git sesuai perangkat yang anda gunakan. Jika menggunakan windows maka klik pada tulisan windows, kemudian unduh Git sesuai dengan arsitektur komputer anda. Jika menggunakan 64bit, unduh yang 64bit. Begitu juga jika menggunakan 32bit. 
 <img width="775" alt="Download git" src="https://user-images.githubusercontent.com/72985112/96274746-15b01000-0ffb-11eb-9716-04d6ca24a5fd.png">
 
+
 **2. Instalasi Git**
 
 > Instal Git pada perangkat komputer anda.
 Jika sudah berhasil terinstal, untuk mencobanya, silahkan buka CMD atau PowerShell, kemudian ketik perintah
 `git --version`
 <img width="326" alt="cut git version" src="https://user-images.githubusercontent.com/72985112/96277156-18f8cb00-0ffe-11eb-9d25-69cc778c346d.png">
+
 
 **3. Melakukan Konfigurasi Awal**
 
@@ -20,6 +22,7 @@ Silahkan lakukan konfigurasi dengan perintah berikut ini:
 `$ git config --global user.name "username anda"`
 `$ git config --global user.email "email anda"`
 <img width="361" alt="1  Cut Menambahkan global config" src="https://user-images.githubusercontent.com/72985112/96276947-d6cf8980-0ffd-11eb-9759-8b4d04f48604.png">
+
 
 **4. Membuat Repositori Lokal**
 
@@ -38,6 +41,7 @@ Silahkan lakukan konfigurasi dengan perintah berikut ini:
 > Repository baru berhasil di inisialisasi, dengan terbentuknya satu direktori hidden dengan nama .git
 <img width="577" alt="cut git" src="https://user-images.githubusercontent.com/72985112/96279370-c836a180-1000-11eb-8856-e625cbf7fbce.png">
 
+
 **5. Menambahkan File Baru Pada Repository**
 
 > Untuk membuat file dapat menggunakan text editor, lalu menyimpan filenya pada direktori aktif (repository). disini kita akan coba buat satu file bernama README.md (text file) dengan menggunakan perintah :
@@ -50,11 +54,13 @@ Silahkan lakukan konfigurasi dengan perintah berikut ini:
 maka file README.md berhasil ditambahkan
 <img width="497" alt="readme git" src="https://user-images.githubusercontent.com/72985112/96280574-4e9fb300-1002-11eb-9d3c-4f593d3bb524.png">
 
+
 **6. Commit (Menyimpan perubahan ke database)**
 
 > Untuk menyimpan perubahan yang ada kedalam database repository local, gunakan perintah berikut:
 `$ git commit --m "komentar commit"`
 <img width="432" alt="commit" src="https://user-images.githubusercontent.com/72985112/96280963-e0a7bb80-1002-11eb-8cf4-d137c69a2fdc.png">
+
 
 **7. Membuat Repository Server**
 
@@ -68,11 +74,13 @@ atau klik new repository dari menu icon +
 > Isi nama repositorynya, misalnya: labpy1, kemudian klik tombol create repository.
 <img width="669" alt="7  Membuat repistory server2" src="https://user-images.githubusercontent.com/72985112/96282817-6a588880-1005-11eb-8087-6dcf1d1b8cbb.png">
 
+
 **8. Menambahkan Remote Repository**
 Untuk menambahkan remote repository server, gunakan perintah:
 `$ git remote origin [url]`
  
 <img width="411" alt="8  Menambahkan remote repository" src="https://user-images.githubusercontent.com/72985112/96283122-ed79de80-1005-11eb-8338-fc1a95b151e5.png">
+
 
 **9.PUSH (Mengirim Perubahan Ke Server)**
 
@@ -87,6 +95,7 @@ Untuk menambahkan remote repository server, gunakan perintah:
 
 > Buka laman github.com, arahkan pada repositorinya. Maka halaman tersebut akan berubah sesuai dengan apa yang telah anda buat tadi.
 <img width="957" alt="hasil repository" src="https://user-images.githubusercontent.com/72985112/96283988-2ebebe00-1007-11eb-91c8-6ef26964af18.png">
+
 
 **11. Clone Repository**
 
