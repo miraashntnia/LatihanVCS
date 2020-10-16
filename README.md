@@ -1,3 +1,6 @@
+### ***CARA PENGGUNAAN GIT***
+
+
 ### **1. Download Aplikasi Git**
 
 Buka website resmi git [https://git-scm.com/](url), kemudian pilih git sesuai perangkat yang anda gunakan. Jika menggunakan windows maka klik pada tulisan windows, kemudian unduh Git sesuai dengan arsitektur komputer anda. Jika menggunakan 64bit, unduh yang 64bit. Begitu juga jika menggunakan 32bit. 
