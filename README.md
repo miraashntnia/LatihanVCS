@@ -82,7 +82,7 @@ Silahkan lakukan konfigurasi dengan perintah berikut ini:
 ### **6. Commit (Menyimpan perubahan ke database)**
 
 Untuk menyimpan perubahan yang ada kedalam database repository local, gunakan perintah berikut:
-`$ git commit --m "komentar commit"`
+`$ git commit -m "komentar commit"`
 
 <img width="432" alt="commit" src="https://user-images.githubusercontent.com/72985112/96280963-e0a7bb80-1002-11eb-8cf4-d137c69a2fdc.png">
 
