@@ -109,7 +109,7 @@ Untuk menyimpan perubahan yang ada kedalam database repository local, gunakan pe
 ### **8. Menambahkan Remote Repository**
 
 Untuk menambahkan remote repository server, gunakan perintah:
-`$ git remote origin [url]`
+`$ git remote add origin [url]`
  
 <img width="411" alt="8  Menambahkan remote repository" src="https://user-images.githubusercontent.com/72985112/96283122-ed79de80-1005-11eb-8338-fc1a95b151e5.png">
 
